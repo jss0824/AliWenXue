@@ -8,7 +8,7 @@ header = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
 }
 
-url = 'https://c13.shuqireader.com/pcapi/chapter/contentfree/?bookId=6813923&chapterId=674174&ut=1472714703&num=1&ver=1&aut=1563255851&sign=c6b551c7f510d444fef749167e25b835'
+url = 'https://c13.shuqireader.com/pcapi/chapter/contentfree/?bookId=6813923&chapterId=674176&ut=1472714703&num=1&ver=1&aut=1563255851&sign=a51fb66b9f6350f1c30b92164fc25c9a'
 
 res = requests.get(url,headers=header)
 content = json.loads(res.text)['ChapterContent']
